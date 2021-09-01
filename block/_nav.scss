@@ -1,0 +1,35 @@
+// nav
+
+.nav{
+   display: flex;
+   font-size: 18px;
+   font-weight: 500 bold;
+   margin-right: 800px;
+   font-family:'roboto';
+}
+
+.nav__link{
+   color: #fff;
+   text-decoration: none;
+   opacity: .85;
+   margin-left: 20px;
+   margin-right: 30px;
+   transition: opacity 0.1s linear;
+}
+.nav__link:hover{
+   opacity: 1 ;
+   text-decoration: #fff;
+
+}
+
+// botton
+
+.btn{
+   position: absolute;
+width: 163px;
+height: 51px;
+left: 960px;
+top: 35px;
+background: #C9453B;
+border-radius: 5px;
+}

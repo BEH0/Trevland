@@ -1,0 +1,156 @@
+footer{
+   width: 100%;
+   height: 398px;
+   background: rgba(38, 148, 153, 0.04);
+}
+
+.logo__footer{
+position: absolute;
+margin: 70px 144px;
+}
+
+.logo__footer h4{
+   font-family: Ribeye;
+   font-weight: 400;
+   font-size: 24px;
+   margin-bottom: 70px;
+}
+
+.logo__footer h5{
+   font-family: roboto;
+   font-weight: 400;
+   font-size: 17px;
+   margin-left: 15px;
+}
+
+address:hover{
+   transition: 0.2s;
+   color: blue;
+}
+address{
+   cursor: pointer;
+   font-family: Roboto;
+   line-height: 35px;
+   margin-left: 15px;
+   font-style: normal;
+}
+
+.logo__footer a{
+   line-height: 30px;
+}
+
+.sci{
+   position: absolute;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-left: -65px;
+}
+
+.sci li:hover{
+   transition: 0.5s;
+   transform: translateY(-4px);
+}
+.sci li{
+   margin-left: 15px;
+   line-height: 35px;
+}
+.sci li a{
+   display: inline-block;
+   margin-left: 27px;
+}
+
+.nav__footer{
+   position: absolute;
+   width: 74px;
+}
+
+.sci1{
+   position: absolute;
+   left: 440px;
+    top: 69px;
+    cursor: pointer;
+}
+
+.sci1 li{
+   margin-bottom: 25px;
+}
+
+.sci1 li a:hover{
+   transition: 0.2s;
+   color: blue;
+}
+.sci1 li a{
+   font-size: 17px;
+   font-family: Roboto;
+   font-weight: 500;
+   color: #000;
+}
+
+.nav__footer1{
+   position: absolute;
+}
+.sci2{
+   position: absolute;
+   width: 158px;
+   left: 628px;
+    top: 69px;
+    cursor: pointer;
+}
+.sci2 li{
+   margin-bottom: 25px;
+}
+
+.sci2 li a:hover{
+   transition: 0.2s;
+   color: blue;
+}
+.sci2 li a{
+   font-size: 17px;
+   font-family: Roboto;
+   font-weight: 500;
+   color: #000;
+}
+
+.subscribe h2{
+position: absolute;
+left: 883px;
+top: 3061px;
+font-family: Roboto;
+font-weight: 500;
+font-size: 20px;
+line-height: 150%;
+letter-spacing: 0.06em;
+color: #000000;
+}
+
+.email{
+   position: absolute;
+   left: 895px;
+   top: 3125px;
+}
+.email input:hover{
+   opacity: 1;
+}
+.email input{
+width: 175px;
+height: 38px;
+opacity: 0.50;
+border: 1px solid #000000;
+box-sizing: border-box;
+box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.15);
+border-radius: 5px;
+}
+button.btn10:hover{
+   background: red;
+}
+button.btn10{
+width: 80px;
+height: 38px;
+left: 1240px;
+top: 3741px;
+background: #db2b1f;
+border-radius: 5px;
+margin-left: 15px;
+color: #fff;
+}
